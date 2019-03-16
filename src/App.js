@@ -39,7 +39,7 @@ function App() {
         <Title>hook-style</Title>
         <p>Change foreground & background hues by moving your pointer around ☝️</p>
         <ViewSource url="https://glitch.com/edit/#!/hook-style-theme-demo" />
-        <code>{`hook-style@${pkg.dependencies['hook-style'].replace(/[\^\*]/g, '')}`}</code>
+        <code>{`hook-style@${pkg.dependencies['hook-style'].replace(/\^|\*/, '')}`}</code>
       </div>
     </ThemeProvider>
   );

@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "create-react-app": "^2.1.8",
-    "hook-style": "^1.4.2",
+    "hook-style": "^1.5.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
